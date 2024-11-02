@@ -1,0 +1,133 @@
+body {
+      background-image: url('image.png');
+      height: auto;
+      background-size: cover;
+      color: hsl(0, 0%, 100%);
+      font-family: Arial, sans-serif;
+      min-height: 100vh;
+      margin: 0;
+      overflow: hidden;
+    }
+
+    .flex-container {
+      height: 15vh; 
+      width: 30vh;
+      margin-left: 1200px;
+    }
+
+    .align-center {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .container {
+      background-color: #282828;
+      padding: 80px;
+      border-radius: 20px;
+      text-align: center;
+      position: relative;
+      width: 700px;
+      display: inline-block;
+      box-shadow: 0 0 5px solid white;
+      opacity: 0.5;
+      overflow: hidden;
+    }
+
+
+    h1 {
+      margin-bottom: 20px;
+      color: white;
+      text-shadow: 
+        0 0 10px #f47521, 
+        0 0 15px #f47521, 
+        0 0 20px #f47521, 
+        0 0 25px #f47521,
+        0 0 5px black; 
+     
+    }
+
+    p {
+      margin-bottom: 10px;
+      color: white;
+      font-size: medium;
+    }
+
+    span {
+      font-size: 20px;
+      color: #f47521;
+      font-weight: bold;
+    }
+
+    input[type="email"] {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      background-color: #383838;
+      color: #fff;
+      box-sizing: border-box;
+      cursor: text;
+    }
+
+    input[type="email"]:focus, input[type="password"]:focus {
+      outline: none;
+      border-color: #f47521;
+    }
+
+    .policy {
+      color: #d95008; 
+      text-decoration: none; 
+      cursor: pointer;
+    }
+
+    .policy:hover {
+      text-decoration: underline;
+    }
+
+    button {
+      background-color: #e56a1a;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      width: 30%;
+      font-size: 16px;
+      font-weight: bold;
+      transition: box-shadow 1s ease;
+    }
+
+    button:hover {
+      box-shadow: 0 0 20px white, 0 0 20px white;
+    }
+
+    .login-link {
+      margin-top: 20px;
+      font-size: 14px;
+    }
+
+    .login-link a {
+      color: #f47521;
+      text-decoration: underline;
+      font-weight: bold;
+      text-shadow: 
+        0 0 4px white, 
+        0 0 7px white, 
+        0 0 10px white, 
+        0 0 20px white,
+        0 0 30px white; 
+    }
+
+.footer {
+  color: silver;
+}
+    
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
